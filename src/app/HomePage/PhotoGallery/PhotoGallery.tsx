@@ -8,7 +8,7 @@ import SectionLayout, {
 
 import Image from "next/image";
 
-export const getImage = (url) => (
+export const getImage = (url: string) => (
   <Image
     className="mobile:h-[364px] mobile:w-[343px]"
     src={url}
