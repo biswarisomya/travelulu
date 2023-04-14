@@ -48,7 +48,17 @@ const data = [
   },
 ];
 
-const Avatar = ({ name, visited, description, url }) => {
+const Avatar = ({
+  name,
+  visited,
+  description,
+  url,
+}: {
+  name: string;
+  visited: string;
+  description: string;
+  url: string;
+}) => {
   return (
     <div
       key={name}

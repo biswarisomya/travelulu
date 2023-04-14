@@ -1,6 +1,17 @@
-import React from "react";
+import React, {
+  JSXElementConstructor,
+  ReactComponentElement,
+  ReactElement,
+  ReactNode,
+} from "react";
 
-export const Heading = ({ children, className }) => {
+export const Heading = ({
+  children,
+  className,
+}: {
+  children: ReactNode;
+  className?: string;
+}) => {
   return (
     <div
       className={`basis-[100%] pl-[3px] text-[16px] font-semibold uppercase leading-[28px] text-primary-light ${className}`}
@@ -9,7 +20,13 @@ export const Heading = ({ children, className }) => {
     </div>
   );
 };
-export const SubHeading = ({ children, className }) => {
+export const SubHeading = ({
+  children,
+  className,
+}: {
+  children: ReactNode;
+  className?: string;
+}) => {
   return (
     <div
       className={`mt-[36px] basis-[515px] text-[48px] font-bold leading-[50px] text-g-dark mobile:mt-[16px] mobile:basis-0 mobile:text-[32px] mobile:leading-[36px] ${className}`}
@@ -19,7 +36,13 @@ export const SubHeading = ({ children, className }) => {
   );
 };
 
-export const Description = ({ children, className }) => {
+export const Description = ({
+  children,
+  className,
+}: {
+  children: ReactNode;
+  className?: string;
+}) => {
   return (
     <div
       className={`mt-[36px] basis-[435px] text-[16px] font-normal leading-[28px] mobile:mt-[16px] mobile:mt-[30px] mobile:basis-0 ${className}`}
@@ -28,11 +51,23 @@ export const Description = ({ children, className }) => {
     </div>
   );
 };
-export const Content = ({ children, className }) => {
+export const Content = ({
+  children,
+  className,
+}: {
+  children: ReactNode;
+  className?: string;
+}) => {
   return <div className="w-[100%]">{children}</div>;
 };
 
-const SectionLayout = ({ children, className }: { children: any }) => {
+const SectionLayout = ({
+  children,
+  className,
+}: {
+  children: ReactComponentElement<any>[];
+  className?: string;
+}) => {
   const heading = children.find((c) => c.type.name === "Heading");
   const subHeading = children.find((c) => c.type.name === "SubHeading");
   const description = children.find((c) => c.type.name === "Description");

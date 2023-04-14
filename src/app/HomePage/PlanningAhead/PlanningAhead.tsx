@@ -26,8 +26,7 @@ const BackwardArrow = () => (
 );
 const PlanningAhead = () => {
   const windowSize = useWindowSize();
-  console.log(windowSize);
-  const isMobile = windowSize?.outerWidth < 640;
+  const isMobile = windowSize?.outerWidth && windowSize?.outerWidth < 640;
   return (
     <SectionLayout>
       <Heading className="text-center">planning ahead</Heading>

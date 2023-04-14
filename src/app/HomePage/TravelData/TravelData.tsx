@@ -2,7 +2,7 @@ import { GiCommercialAirplane } from "react-icons/gi";
 import { BiGlobe } from "react-icons/bi";
 import { BsBicycle } from "react-icons/bs";
 
-const getIcon = (type) => {
+const getIcon = (type: string) => {
   if (type === "locations") return <GiCommercialAirplane />;
   if (type === "reviews") return <BiGlobe />;
   if (type === "travellers") return <BsBicycle />;
