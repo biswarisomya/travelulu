@@ -1,4 +1,3 @@
-"use client";
 import SectionLayout, {
   Content,
   Description,
