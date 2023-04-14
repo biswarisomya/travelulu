@@ -24,6 +24,7 @@ const ToolList = () => {
               src={"/Time.png"}
               width="302"
               height="180"
+              alt="time"
             />
             <div className=" mx-auto mt-[14px]  w-[216px] text-[16px] leading-[28px]">
               orem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -39,6 +40,7 @@ const ToolList = () => {
               src={"/Plane and money.png"}
               width="302"
               height="180"
+              alt="plane and money"
             />
             <div className="mx-auto mt-[30px] text-[18px] font-semibold leading-[34px]">
               Pay For Your Flights
@@ -57,6 +59,7 @@ const ToolList = () => {
               src={"/Money.png"}
               width="302"
               height="180"
+              alt="money"
             />
             <div className="mx-auto mt-[30px] text-[18px] font-semibold leading-[34px]">
               Plan Your Finances

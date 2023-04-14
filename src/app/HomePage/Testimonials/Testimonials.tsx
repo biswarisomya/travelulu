@@ -55,7 +55,7 @@ const Avatar = ({ name, visited, description, url }) => {
       className="relative mt-[55px] flex flex-1 flex-col rounded-[20px] border border-2 border-primary-extra-light mobile:flex-none mobile:basis-[79%]"
     >
       <div className=" absolute left-[35%] top-[-55px] mx-auto h-[121px] w-[121px] items-center justify-center rounded-[121px] bg-[#CDCCFF]  text-g-dark mobile:top-[-55px]">
-        <Image src={url} width="121" height="0" />
+        <Image src={url} width="121" height="0" alt="avatar" />
       </div>
 
       <div className=" mx-auto mt-[80px] flex w-[141px]  flex-col  text-[18px] leading-[27px] text-primary-dark">

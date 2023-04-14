@@ -10,7 +10,12 @@ const Properties = () => {
       </div>
       <div className="flex ">
         <div className="mt-[42px]">
-          <Image src={"/Property1.png"} width="268" height="204" />
+          <Image
+            src={"/Property1.png"}
+            width="268"
+            height="204"
+            alt="property 1"
+          />
         </div>
         <div className="ml-[35px] mt-[52px] flex h-[253px] w-[478px] flex-col ">
           <div className="flex items-center">
@@ -46,7 +51,12 @@ const Properties = () => {
       <div className="border border-[#D9DBE9]"></div>
       <div className="flex ">
         <div className="mt-[42px]">
-          <Image src={"/Property2.png"} width="268" height="204" />
+          <Image
+            src={"/Property2.png"}
+            width="268"
+            height="204"
+            alt="property 2"
+          />
         </div>
         <div className="ml-[35px] mt-[52px] flex h-[253px] w-[478px] flex-col ">
           <div className="flex items-center">
@@ -82,7 +92,12 @@ const Properties = () => {
       <div className="border border-[#D9DBE9]"></div>
       <div className="flex ">
         <div className="mt-[42px]">
-          <Image src={"/Property3.png"} width="268" height="204" />
+          <Image
+            src={"/Property3.png"}
+            width="268"
+            height="204"
+            alt="property 3"
+          />
         </div>
         <div className="ml-[35px] mt-[52px] flex h-[253px] w-[478px] flex-col ">
           <div className="flex items-center">
@@ -116,7 +131,12 @@ const Properties = () => {
       <div className="border border-[#D9DBE9]"></div>
       <div className="flex ">
         <div className="mt-[42px]">
-          <Image src={"/Property4.png"} width="268" height="204" />
+          <Image
+            src={"/Property4.png"}
+            width="268"
+            height="204"
+            alt="property 4"
+          />
         </div>
         <div className="ml-[35px] mt-[52px] flex h-[253px] w-[478px] flex-col ">
           <div className="flex items-center">

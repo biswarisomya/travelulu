@@ -14,6 +14,7 @@ export const getImage = (url) => (
     src={url}
     width="569"
     height="603"
+    alt="url"
   />
 );
 const PhotoGallery = () => {

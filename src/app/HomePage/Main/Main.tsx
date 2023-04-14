@@ -8,6 +8,7 @@ const Main = () => {
         src={"/boarding.png"}
         width="986"
         height="634"
+        alt="boarding"
       />
       <div className="flex flex-col gap-[25px]  pb-[195px] pl-[135px] pt-[194px] mobile:mx-auto mobile:mt-[77%] mobile:w-[86%]  mobile:p-[unset] ">
         <div className="w-[669px] text-[64px] font-bold leading-[66px] text-g-dark  mobile:w-[100%] mobile:pl-[20px] mobile:text-[48px] mobile:leading-[50px]">
