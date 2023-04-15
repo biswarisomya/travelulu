@@ -10,7 +10,7 @@ const SearchFormSide = () => {
   const [isFocusCheckIn, setIsFocusCheckIn] = useState(false);
   const [isFocusCheckOut, setIsFocusCheckOut] = useState(false);
   return (
-    <div className="ml-[130px] mt-[45px] flex h-[49%]  w-[25%] flex-col rounded-[20px] bg-[#2A00A2] pb-[35px] pl-[35px] pr-[38px] pt-[30px]">
+    <div className="ml-[130px] mt-[45px] flex h-[49%]  w-[25%] flex-col rounded-[20px] bg-[#2A00A2] pb-[35px] pl-[35px] pr-[38px] pt-[30px] mobile:mx-auto mobile:w-[87.5%] ">
       <div className="text-[24px] font-semibold leading-[38px] text-primary-light ">
         Search
       </div>

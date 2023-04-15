@@ -9,14 +9,20 @@ import { MdArrowBackIos, MdArrowForwardIos } from "react-icons/md";
 import Image from "next/image";
 
 const ForwardArrow = () => (
-  <div className=" flex h-[78px] w-[78px] items-center justify-center rounded-[57.66px] border-2 border-primary-dark bg-primary-dark text-g-dark">
+  <div
+    role="button"
+    className=" flex h-[78px] w-[78px] items-center justify-center rounded-[57.66px] border-2 border-primary-dark bg-primary-dark text-g-dark"
+  >
     <div className=" text-[25px] text-white">
       <MdArrowForwardIos />
     </div>
   </div>
 );
 const BackwardArrow = () => (
-  <div className=" flex h-[78px] w-[78px] items-center justify-center rounded-[57.66px] border-2 border-primary-dark bg-primary-dark text-g-dark">
+  <div
+    role="button"
+    className=" flex h-[78px] w-[78px] items-center justify-center rounded-[57.66px] border-2 border-primary-dark bg-primary-dark text-g-dark"
+  >
     <div className=" text-[25px] text-white">
       <MdArrowBackIos />
     </div>
