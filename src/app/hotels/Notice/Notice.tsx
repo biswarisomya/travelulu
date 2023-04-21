@@ -12,9 +12,9 @@ const Notice = () => {
           Get instant confirmation with FREE cancellation on most rooms!
         </div>
       </div>
-      <div className="absolute right-[38px] mobile:right-[25px]">
+      <button className="absolute right-[38px] mobile:right-[25px]">
         <IoIosClose />
-      </div>
+      </button>
     </div>
   );
 };

@@ -54,12 +54,10 @@ const Properties = () => {
         254 Properties Found
       </div>
 
-      {data.map((d, di) => (
+      {data.map((d) => (
         <div
           key={d.name}
-          className={`flex ${
-            di + 1 !== data.length && "border-b-2"
-          } mobile:flex-col`}
+          className="flex border-b-2 last:border-none mobile:flex-col"
         >
           <div className="mt-[42px] mobile:flex mobile:w-[calc(100%_-_-31px)] mobile:gap-[20px] mobile:overflow-x-scroll">
             <Image
