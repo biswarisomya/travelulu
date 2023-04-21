@@ -22,7 +22,7 @@ const Header = () => {
     },
   ];
   return (
-    <div className=" font-poppins  border-b-2 border-solid pb-[33px] pl-[135px]  pr-[90px] pt-[34px] font-bold text-primary-dark  mobile:pl-[9%] mobile:pr-[9%]">
+    <div className=" font-poppins border-b-2 border-solid pb-[33px] pl-[135px]  pr-[90px] pt-[34px] font-bold text-primary-dark  mobile:pl-[9%] mobile:pr-[9%]">
       <Link className="text-[34px] leading-[55px]" href="/">
         Travelulu
       </Link>
